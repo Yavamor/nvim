@@ -3,3 +3,6 @@ Plug 'ThePrimeagen/vim-be-good'
 call plug#end()
 
 colorscheme habamax
+
+set number
+set relativenumber
