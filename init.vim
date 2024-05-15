@@ -1,5 +1,6 @@
 call plug#begin()
 Plug 'ThePrimeagen/vim-be-good'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 call plug#end()
 
 colorscheme habamax
